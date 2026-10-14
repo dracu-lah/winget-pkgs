@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: TMPlayer.TMPlayer
+PackageVersion: 1.25.0
+PackageLocale: en-US
+Publisher: TMPlayer
+PublisherUrl: https://tmplayer.org/
+PublisherSupportUrl: https://tmplayer.org/support/
+PrivacyUrl: https://tmplayer.org/privacy/
+Author: dracu-lah
+PackageName: TMPlayer
+PackageUrl: https://github.com/dracu-lah/TMPlayer
+License: GPL-3.0-only
+LicenseUrl: https://github.com/dracu-lah/TMPlayer/blob/main/LICENSE
+ShortDescription: A video player for the videos in your own Telegram chats, streaming while they load.
+Description: |-
+  TMPlayer plays the videos in your own Telegram chats, channels and groups while they stream, with seeking, MKV subtitles and audio tracks, and the next episode lined up.
+  The desktop app plays through mpv. It is free and open source, with no ads and no account of its own.
+Moniker: tmplayer
+Tags:
+- mpv
+- player
+- telegram
+- video
+- video-player
+ReleaseNotesUrl: https://tmplayer.org/changelog/1.25.0
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
