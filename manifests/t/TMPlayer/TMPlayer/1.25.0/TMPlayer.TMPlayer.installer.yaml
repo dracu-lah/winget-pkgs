@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: TMPlayer.TMPlayer
+PackageVersion: 1.25.0
+InstallerType: msi
+Scope: user
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+ReleaseDate: 2026-10-09
+AppsAndFeaturesEntries:
+- UpgradeCode: '{6F1D3C0E-2B8A-4B7E-9D2C-7A1E5F4C3B21}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/dracu-lah/TMPlayer/releases/download/v1.25.0/TMPlayer-1.25.0-windows-x64.msi
+  InstallerSha256: F20C83436B63DFFE17F7C103409E924802707841A86D52448D143EC28F78A368
+ManifestType: installer
+ManifestVersion: 1.10.0
